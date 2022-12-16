@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+.outerdiv{
+    background-color: hsl(240deg 11% 7%);
+    width: 100%;
+    height: 100vh;
+}
+.innerdiv{
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(249deg 9% 15%);
+}
+.innerdiv1{
+    margin-left: 15px;
+}
+.inputdiv input{
+    width: 290px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    background-color: hsl(249deg 9% 15%);
+    color: hsl(255deg 15% 89%);
+}
+.inputrange{
+    width: 270px;
+    height: 5px;
+    appearance: none;
+    background:linear-gradient(90deg,hsl(126deg 100% 82%) 50%,hsl(249deg 13% 10%) 0%);
+    outline: none;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+.inputrange::-webkit-slider-thumb{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: hsl(240deg 6% 90%);
+    border-radius: 50%;
+}
+.inputdiv{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+.create{
+    color: hsl(255deg 15% 89%);
+    position: relative;
+    display: flex;
+    top: 20px;
+}
+.create p{
+    margin-left: 150px;
+    font-size: 20px;
+    color: hsl(126deg 100% 82%);
+    font-weight: bolder;
+}
+.inclucheck{
+    display: flex;
+    color: hsl(255deg 15% 89%);
+    margin-top: 10px;
+}
+.checkdiv{
+    margin-top: 20px;
+}
+.str{
+    display: flex;
+    width: 270px;
+    height: 40px;
+    background-color:hsl(249deg 13% 10%);
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.str1{
+    color: hsl(250deg 6% 42%);
+    margin-left: 10px;
+}
+.str2{
+    color:hsl(255deg 15% 89%);
+    margin-left: 115px;
+    margin-right: 10px;
+}
+.div1{
+    width: 3px;
+    height: 19px;
+    background-color: hsl(41deg 93% 70%);
+    border: 2px solid hsl(41deg 93% 70%);
+    margin-right: 5px;
+}
+.div2{
+    width: 3px;
+    height: 19px;
+    background-color: hsl(41deg 93% 70%);
+    border: 2px solid hsl(41deg 93% 70%);
+    margin-right: 5px;
+}
+.div3{
+    width: 3px;
+    height: 19px;
+    border: 2px solid hsl(41deg 93% 70%);
+    margin-right: 5px;
+}
+.chkbox{
+appearance: none;
+    height: 15px;
+    width: 15px;
+    background-color: hsl(249deg 9% 15%);
+    border: 1px solid hsl(240deg 6% 90%);
+    margin-right: 10px;
+}
+.chkbox:checked{
+    background-color: hsl(126deg 100% 82%);
+    border: 1px solid hsl(126deg 100% 82%);
+}
+.btn button{
+    width: 270px;
+    height: 35px;
+    background-color:hsl(126deg 100% 82%) ;
+    border: none;
+    margin-bottom: 20px;
+}
+.password{
+    color: rgb(77, 75, 87);
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password_generator</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="outerdiv">
+        <div class="outerdiv1">
+            <div class="password">
+                <p>Password Generator</p>
+            </div>
+            <div class="inputdiv">
+                <input type="text" placeholder="Eg:A34GdX$u*" disabled><span><i class="fa-solid fa-copy"></i></span>
+            </div>
+            <div class="innerdiv">
+                <div class="innerdiv1">
+                <div class="create">Character Length <span><p class="num">11</p></span></div>
+                <div>
+                    <input class="inputrange"type="range" min="1" max="20">
+                </div>
+                <div class="checkdiv">
+                    <div class="inclucheck">
+                        <input type="checkbox"  class="chkbox" id="chkbox1" checked value="uppercase">
+                        <p for="uppercase">Include Uppercase Letter</p>
+                    </div>
+                    <div class="inclucheck" >
+                        <input type="checkbox" class="chkbox" id="chkbox2" checked value="lowercase">
+                        <p>Include Lowercase Latter</p>
+                    </div>
+                    <div class="inclucheck">
+                        <input type="checkbox" class="chkbox" id="chkbox3"value="number">
+                        <p>Include Numbers</p>
+                    </div>
+                    <div class="inclucheck">
+                        <input type="checkbox" class="chkbox" id="chkbox4"value="symbol">
+                        <p>Include Symbol</p>
+                    </div>
+                    <div class="str">
+                        <p class="str1">Strengt</p>
+                        <p class="str2">MEDIUM</p>
+                        <div class="div1"></div>
+                        <div class="div2"></div>
+                        <div class="div3"></div>
+                    </div>
+                    <div class="btn">
+                        <button>Generate</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
